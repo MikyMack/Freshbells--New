@@ -1,0 +1,6 @@
+@media (max-width: 768px) { 
+    .parent-div {
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+  }

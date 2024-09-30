@@ -1,0 +1,79 @@
+.checkout-container {
+    padding: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .checkout-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .billing-details, .order-summary {
+    flex: 1 1 45%;
+  }
+  
+  .billing-details input, .billing-details select, .billing-details textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .order-summary {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .order-summary ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-summary ul li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order-summary p {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-methods label {
+    display: block;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .checkout-form {
+      flex-direction: column;
+    }
+    
+    .billing-details, .order-summary {
+      flex: 1 1 100%;
+    }
+  }
+  

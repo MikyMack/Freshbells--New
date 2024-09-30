@@ -1,0 +1,2 @@
+@keyframes flippingAnimation{0%,to{filter:drop-shadow(0 5px 5px rgba(0,0,0,.2));transform:rotateY(0deg)}50%{filter:drop-shadow(0 15px 15px rgba(0,0,0,.3));transform:rotateY(180deg)}}.coco-img,.coco1-img{animation:flippingAnimation 10s linear infinite}
+/*# sourceMappingURL=559.e549ba0f.chunk.css.map*/
